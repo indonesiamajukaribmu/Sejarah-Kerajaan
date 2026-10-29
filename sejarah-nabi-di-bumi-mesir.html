@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dari Yusuf hingga Musa — Sejarah Para Nabi di Bumi Mesir &amp; Bani Israel</title>
+<meta name="description" content="Kisah sejarah para nabi di bumi Mesir: Nabi Yusuf AS mentakwilkan mimpi raja dan mengelola khazanah kerajaan, dakwah Nabi Syu'aib AS di Madyan, kelahiran Nabi Musa AS di Sungai Nil, hingga perjalanan panjang Bani Israel.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 2 L29 30 L3 30 Z' fill='%23d4af37'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b1220;
+    --bg2:#101a2e;
+    --bg3:#0e1830;
+    --card:rgba(255,255,255,.045);
+    --gold:#d4af37;
+    --gold2:#f0d98c;
+    --gold3:#8a6d1f;
+    --sand:#e9dcc0;
+    --teal:#2a9d8f;
+    --terra:#c1663e;
+    --text:#e8ecf4;
+    --muted:#a9b4c8;
+    --line:rgba(212,175,55,.18);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'Plus Jakarta Sans',system-ui,sans-serif;
+    background:var(--bg);color:var(--text);line-height:1.8;
+    overflow-x:hidden;-webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:rgba(212,175,55,.35);color:#fff}
+  ::-webkit-scrollbar{width:10px}
+  ::-webkit-scrollbar-track{background:#080e1a}
+  ::-webkit-scrollbar-thumb{background:#2a3a55;border-radius:8px}
+  ::-webkit-scrollbar-thumb:hover{background:var(--gold3)}
+  a{color:inherit}
+  .wrap{max-width:1180px;margin:auto}
+
+  /* ===== progress bar ===== */
+  #progress{position:fixed;top:0;left:0;height:3px;width:0;z-index:1200;
+    background:linear-gradient(90deg,var(--gold3),var(--gold),var(--gold2));
+    box-shadow:0 0 12px rgba(212,175,55,.6);transition:width .1s linear}
+
+  /* ===== navbar ===== */
+  nav{position:fixed;top:0;width:100%;z-index:1100;
+    background:rgba(9,14,26,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--line)}
+  .nav-inner{max-width:1220px;margin:auto;display:flex;align-items:center;
+    justify-content:space-between;gap:16px;padding:13px 24px}
+  .brand{font-family:'Playfair Display',serif;color:var(--gold2);font-weight:700;
+    font-size:1.02rem;letter-spacing:.6px;white-space:nowrap}
+  .brand span{color:var(--gold)}
+  .nav-links{display:flex;gap:6px;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none}
+  .nav-links::-webkit-scrollbar{display:none}
+  .nav-links a{color:var(--muted);text-decoration:none;font-size:.8rem;font-weight:600;
+    padding:7px 13px;border-radius:999px;white-space:nowrap;transition:.3s;border:1px solid transparent}
+  .nav-links a:hover{color:var(--gold2);border-color:var(--line)}
+  .nav-links a.active{color:#0b1220;background:linear-gradient(135deg,var(--gold2),var(--gold));border-color:transparent}
+
+  /* ===== hero ===== */
+  .hero{min-height:100vh;position:relative;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;text-align:center;
+    padding:130px 24px 170px;overflow:hidden;
+    background:linear-gradient(180deg,#060c18 0%,#0a1424 38%,#10263c 72%,#163a4e 100%)}
+  .hero::before{content:'';position:absolute;inset:0;opacity:.85;pointer-events:none;
+    background-image:
+      radial-gradient(1.6px 1.6px at 12% 18%,rgba(255,255,255,.85),transparent 60%),
+      radial-gradient(1.2px 1.2px at 28% 9%,rgba(255,255,255,.6),transparent 60%),
+      radial-gradient(1.8px 1.8px at 41% 22%,rgba(255,255,255,.75),transparent 60%),
+      radial-gradient(1.1px 1.1px at 55% 12%,rgba(255,255,255,.55),transparent 60%),
+      radial-gradient(1.7px 1.7px at 67% 26%,rgba(255,255,255,.8),transparent 60%),
+      radial-gradient(1.3px 1.3px at 78% 8%,rgba(255,255,255,.6),transparent 60%),
+      radial-gradient(1.9px 1.9px at 88% 19%,rgba(255,255,255,.8),transparent 60%),
+      radial-gradient(1.2px 1.2px at 8% 38%,rgba(255,255,255,.5),transparent 60%),
+      radial-gradient(1.5px 1.5px at 94% 36%,rgba(255,255,255,.55),transparent 60%),
+      radial-gradient(1.4px 1.4px at 48% 33%,rgba(255,255,255,.4),transparent 60%)}
+  .hero-content{position:relative;z-index:3;max-width:960px}
+  .hero-badge{display:inline-flex;align-items:center;gap:10px;color:var(--gold2);
+    border:1px solid rgba(212,175,55,.4);background:rgba(212,175,55,.07);
+    padding:8px 20px;border-radius:999px;font-size:.74rem;font-weight:700;
+    letter-spacing:3.5px;text-transform:uppercase;margin-bottom:26px;backdrop-filter:blur(6px)}
+  .hero h1{font-family:'Playfair Display',serif;font-weight:800;
+    font-size:clamp(2.5rem,6.4vw,4.6rem);line-height:1.14;margin-bottom:22px;
+    background:linear-gradient(180deg,#fdf3d0 8%,var(--gold2) 46%,var(--gold) 78%,#9d7c26 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    text-shadow:0 20px 60px rgba(212,175,55,.12)}
+  .hero p.sub{color:#c3d0e2;font-size:clamp(.98rem,1.6vw,1.13rem);max-width:820px;
+    margin:0 auto 34px;font-weight:400}
+  .hero-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+  .hero-chips a{text-decoration:none;color:var(--sand);font-size:.82rem;font-weight:600;
+    border:1px solid rgba(233,220,192,.28);background:rgba(255,255,255,.04);
+    padding:9px 18px;border-radius:999px;transition:.3s;backdrop-filter:blur(6px)}
+  .hero-chips a:hover{border-color:var(--gold);color:var(--gold2);transform:translateY(-2px)}
+  .pyr{position:absolute;left:0;right:0;bottom:0;width:100%;height:52%;z-index:1;pointer-events:none}
+  .wave{position:absolute;left:0;right:0;bottom:-2px;width:100%;z-index:2;pointer-events:none;display:block}
+  .scroll-cue{position:absolute;bottom:86px;left:50%;transform:translateX(-50%);z-index:4;
+    color:var(--gold2);font-size:.7rem;letter-spacing:3px;text-transform:uppercase;
+    display:flex;flex-direction:column;align-items:center;gap:10px;opacity:.85}
+  .scroll-cue .line{width:1px;height:44px;background:linear-gradient(180deg,var(--gold2),transparent);
+    animation:cue 1.8s ease-in-out infinite}
+  @keyframes cue{0%,100%{transform:scaleY(.4);opacity:.4}50%{transform:scaleY(1);opacity:1}}
+
+  /* ===== section base ===== */
+  section{padding:100px 24px;position:relative}
+  section.band{background:linear-gradient(180deg,var(--bg3) 0%,var(--bg) 100%)}
+  section.band2{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 55%,var(--bg) 100%)}
+  .sec-head{max-width:860px;margin-bottom:16px}
+  .eyebrow{display:flex;align-items:center;gap:14px;color:var(--gold);
+    letter-spacing:4px;font-size:.72rem;font-weight:800;text-transform:uppercase;margin-bottom:16px}
+  .eyebrow .num{font-family:'Playfair Display',serif;font-size:1.05rem;letter-spacing:1px;
+    border:1px solid rgba(212,175,55,.45);color:var(--gold2);border-radius:10px;
+    width:44px;height:44px;display:grid;place-items:center;background:rgba(212,175,55,.08);flex:0 0 auto}
+  .eyebrow .txt{display:flex;flex-direction:column;gap:2px}
+  .eyebrow .txt i{font-style:normal;color:var(--muted);letter-spacing:2px;font-size:.66rem;font-weight:600}
+  h2{font-family:'Playfair Display',serif;font-size:clamp(1.85rem,3.7vw,2.7rem);
+    line-height:1.22;color:#f5edd8;margin-bottom:16px}
+  .lead{color:var(--muted);font-size:1.04rem;max-width:840px}
+  .lead b, .lead strong{color:var(--sand)}
+  .body-text{color:var(--muted);font-size:1rem;margin-top:18px;max-width:900px}
+  .body-text b{color:var(--sand)}
+  .ornament{display:flex;justify-content:center;margin:54px 0 6px;opacity:.9}
+  .bismillah{font-family:'Amiri',serif;text-align:center;color:var(--gold2);
+    font-size:clamp(1.5rem,3vw,2.1rem);margin-bottom:8px}
+
+  /* ===== pattern bg ===== */
+  .pattern{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64' viewBox='0 0 64 64'%3E%3Cpath d='M32 6 L38.5 25.5 L58 32 L38.5 38.5 L32 58 L25.5 38.5 L6 32 L25.5 25.5 Z' fill='none' stroke='%23d4af37' stroke-opacity='.055'/%3E%3Ccircle cx='32' cy='32' r='3' fill='none' stroke='%23d4af37' stroke-opacity='.045'/%3E%3C/svg%3E");
+    background-size:64px 64px}
+
+  /* ===== note box ===== */
+  .note{border:1px solid rgba(42,157,143,.35);background:rgba(42,157,143,.07);
+    border-radius:16px;padding:20px 24px;margin-top:30px;max-width:960px}
+  .note h5{color:#7fd8cb;font-size:.8rem;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:8px}
+  .note p{color:var(--muted);font-size:.92rem}
+
+  /* ===== cards ===== */
+  .grid{display:grid;gap:22px;margin-top:40px}
+  .g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+  .g3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:20px;
+    padding:30px 28px;transition:.35s cubic-bezier(.2,.6,.2,1);position:relative;overflow:hidden}
+  .card::after{content:'';position:absolute;inset:0;border-radius:20px;pointer-events:none;
+    background:linear-gradient(160deg,rgba(212,175,55,.06),transparent 42%)}
+  .card:hover{transform:translateY(-6px);border-color:rgba(212,175,55,.5);
+    box-shadow:0 22px 48px rgba(0,0,0,.4)}
+  .card h3{font-family:'Playfair Display',serif;color:var(--gold2);
+    font-size:1.22rem;margin-bottom:4px;line-height:1.35}
+  .card h4{font-family:'Playfair Display',serif;color:var(--gold2);font-size:1.05rem;margin-bottom:8px}
+  .card .tag{display:inline-block;font-size:.68rem;letter-spacing:2.2px;text-transform:uppercase;
+    color:var(--gold);border:1px solid rgba(212,175,55,.35);padding:3px 11px;border-radius:999px;margin-bottom:14px}
+  .card p{color:var(--muted);font-size:.95rem}
+  .card p + p{margin-top:10px}
+  .icon{width:54px;height:54px;border-radius:15px;display:grid;place-items:center;margin-bottom:18px;
+    background:linear-gradient(135deg,rgba(212,175,55,.16),rgba(212,175,55,.05));
+    border:1px solid rgba(212,175,55,.3);color:var(--gold2)}
+  .icon svg{width:26px;height:26px;stroke:var(--gold2);fill:none;stroke-width:1.7;
+    stroke-linecap:round;stroke-linejoin:round}
+
+  /* ===== ayah block ===== */
+  .ayah{background:linear-gradient(140deg,rgba(212,175,55,.1),rgba(212,175,55,.02));
+    border:1px solid rgba(212,175,55,.3);border-radius:22px;padding:36px 30px;
+    text-align:center;margin:32px auto;max-width:920px;position:relative}
+  .ayah::before,.ayah::after{content:'';position:absolute;top:14px;width:40px;height:40px;
+    border-color:rgba(212,175,55,.5);border-style:solid}
+  .ayah::before{left:14px;border-width:1px 0 0 1px;border-radius:8px 0 0 0}
+  .ayah::after{right:14px;border-width:0 1px 1px 0;border-radius:0 0 8px 0}
+  .ayah .ar{font-family:'Amiri',serif;font-size:clamp(1.25rem,2.6vw,1.72rem);
+    line-height:2.25;color:#f6e7b8;direction:rtl;margin-bottom:18px}
+  .ayah .id{color:var(--sand);font-style:italic;font-size:.98rem;max-width:780px;margin:0 auto}
+  .ayah .ref{display:inline-block;margin-top:16px;font-size:.72rem;letter-spacing:2.5px;
+    color:var(--gold);border:1px solid rgba(212,175,55,.45);padding:5px 16px;
+    border-radius:999px;font-weight:700;text-transform:uppercase}
+
+  /* ===== fact box ===== */
+  .fact{border-left:3px solid var(--gold);background:rgba(212,175,55,.07);
+    padding:22px 26px;border-radius:0 16px 16px 0;margin:28px 0;max-width:960px}
+  .fact h5{color:var(--gold2);font-size:.95rem;margin-bottom:8px;font-family:'Playfair Display',serif}
+  .fact p{color:var(--muted);font-size:.93rem}
+  .fact p + p{margin-top:8px}
+  .fact b{color:var(--sand)}
+
+  /* ===== chips ===== */
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+  .chip{padding:7px 16px;border-radius:999px;border:1px solid rgba(212,175,55,.3);
+    font-size:.8rem;color:var(--sand);background:rgba(212,175,55,.06);font-weight:600}
+  .chip.alt{border-color:rgba(42,157,143,.4);background:rgba(42,157,143,.08);color:#9fdcd2}
+
+  /* ===== steps (kisah berurutan) ===== */
+  .steps{display:grid;gap:18px;margin-top:42px}
+  .step{display:flex;gap:22px;background:var(--card);border:1px solid var(--line);
+    border-radius:18px;padding:24px 26px;transition:.3s}
+  .step:hover{border-color:rgba(212,175,55,.45);transform:translateX(6px)}
+  .step-num{flex:0 0 48px;height:48px;border-radius:13px;
+    background:linear-gradient(135deg,var(--gold2),var(--gold3));color:#0b1220;
+    font-weight:800;font-family:'Playfair Display',serif;display:grid;place-items:center;font-size:1.2rem}
+  .step h4{color:var(--gold2);font-size:1.06rem;margin-bottom:7px;font-family:'Playfair Display',serif}
+  .step p{color:var(--muted);font-size:.94rem}
+  .step p b{color:var(--sand)}
+
+  /* ===== timeline ===== */
+  .tl{position:relative;margin-top:48px;max-width:960px}
+  .tl::before{content:'';position:absolute;left:21px;top:10px;bottom:14px;width:2px;
+    background:linear-gradient(180deg,var(--gold),rgba(212,175,55,.06))}
+  .tl-item{position:relative;padding:0 0 40px 68px}
+  .tl-item:last-child{padding-bottom:0}
+  .tl-item::before{content:'';position:absolute;left:13px;top:9px;width:19px;height:19px;
+    border-radius:50%;background:var(--bg);border:2px solid var(--gold);
+    box-shadow:0 0 0 6px rgba(212,175,55,.12),0 0 18px rgba(212,175,55,.25)}
+  .tl-item .era{display:inline-block;font-size:.68rem;letter-spacing:2.5px;color:var(--gold);
+    border:1px solid rgba(212,175,55,.4);border-radius:999px;padding:4px 13px;
+    margin-bottom:11px;font-weight:800;text-transform:uppercase}
+  .tl-item h4{font-family:'Playfair Display',serif;font-size:1.18rem;color:#f5edd8;margin-bottom:8px}
+  .tl-item p{color:var(--muted);font-size:.95rem;max-width:840px}
+  .tl-item p b{color:var(--sand)}
+
+  /* ===== reveal ===== */
+  .reveal{opacity:0;transform:translateY(30px);transition:opacity .9s cubic-bezier(.2,.6,.2,1),transform .9s cubic-bezier(.2,.6,.2,1)}
+  .reveal.visible{opacity:1;transform:none}
+  .d1{transition-delay:.08s}.d2{transition-delay:.16s}.d3{transition-delay:.24s}.d4{transition-delay:.32s}
+
+  /* ===== footer ===== */
+  footer{border-top:1px solid var(--line);padding:60px 24px 46px;text-align:center;
+    background:linear-gradient(180deg,var(--bg),#070c16)}
+  footer .verse{font-family:'Amiri',serif;color:var(--gold2);font-size:1.35rem;direction:rtl;margin-bottom:12px}
+  footer p{color:var(--muted);font-size:.88rem;max-width:820px;margin:6px auto}
+  footer .src{margin-top:22px;padding-top:22px;border-top:1px dashed rgba(212,175,55,.2)}
+  footer .src h6{color:var(--sand);font-size:.78rem;letter-spacing:2.5px;text-transform:uppercase;margin-bottom:10px}
+  footer .src p{font-size:.8rem;color:#8b96ab}
+
+  /* ===== back to top ===== */
+  #toTop{position:fixed;right:22px;bottom:22px;width:48px;height:48px;border-radius:14px;
+    background:linear-gradient(135deg,var(--gold2),var(--gold3));border:none;cursor:pointer;
+    display:grid;place-items:center;opacity:0;pointer-events:none;transition:.35s;z-index:1100;
+    box-shadow:0 12px 30px rgba(0,0,0,.45)}
+  #toTop.show{opacity:1;pointer-events:auto}
+  #toTop:hover{transform:translateY(-4px)}
+  #toTop svg{width:20px;height:20px;stroke:#0b1220;stroke-width:2.4;fill:none;stroke-linecap:round;stroke-linejoin:round}
+
+  /* ===== responsive ===== */
+  @media (max-width:860px){
+    section{padding:78px 20px}
+    .nav-inner{padding:12px 16px}
+    .brand{font-size:.92rem}
+    .hero{padding:120px 20px 150px}
+    .step{flex-direction:column;gap:14px}
+    .tl-item{padding-left:58px}
+    .tl::before{left:17px}
+    .tl-item::before{left:9px}
+    .ayah{padding:30px 22px}
+    .scroll-cue{display:none}
+  }
+</style>
+</head>
+<body>
+<div id="progress"></div>
+
+<nav>
+  <div class="nav-inner">
+    <div class="brand">Dari Yusuf <span>ke</span> Musa</div>
+    <div class="nav-links">
+      <a href="#pendahuluan">Pendahuluan</a>
+      <a href="#yusuf">Nabi Yusuf</a>
+      <a href="#bani-israel">Bani Israel</a>
+      <a href="#syuaib">Nabi Syu'aib</a>
+      <a href="#firaun">Firaun</a>
+      <a href="#musa">Nabi Musa</a>
+      <a href="#lini-masa">Lini Masa</a>
+      <a href="#hikmah">Hikmah</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= HERO ================= -->
+<header class="hero" id="atas">
+  <svg class="pyr" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="pg1" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#17324a"/>
+        <stop offset="1" stop-color="#0a1a2c"/>
+      </linearGradient>
+      <linearGradient id="pg2" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#1f425c"/>
+        <stop offset="1" stop-color="#0d2337"/>
+      </linearGradient>
+      <radialGradient id="sun" cx=".5" cy=".5" r=".5">
+        <stop offset="0" stop-color="rgba(240,217,140,.85)"/>
+        <stop offset=".45" stop-color="rgba(212,175,55,.28)"/>
+        <stop offset="1" stop-color="rgba(212,175,55,0)"/>
+      </radialGradient>
+    </defs>
+    <circle cx="1040" cy="130" r="150" fill="url(#sun)"/>
+    <circle cx="1040" cy="130" r="42" fill="#f0d98c" opacity=".92"/>
+    <path d="M40 320 L400 108 L660 320 Z" fill="url(#pg1)"/>
+    <path d="M400 108 L660 320" stroke="rgba(212,175,55,.22)" stroke-width="1.5"/>
+    <path d="M520 320 L880 44 L1290 320 Z" fill="url(#pg2)"/>
+    <path d="M880 44 L1290 320" stroke="rgba(212,175,55,.3)" stroke-width="1.5"/>
+    <path d="M880 44 L940 320 L1290 320 Z" fill="rgba(255,255,255,.025)"/>
+    <path d="M1100 320 L1330 180 L1440 320 Z" fill="url(#pg1)"/>
+    <path d="M1330 180 L1440 320" stroke="rgba(212,175,55,.18)" stroke-width="1.2"/>
+    <rect y="296" width="1440" height="24" fill="#0e3a4a" opacity=".5"/>
+  </svg>
+  <div class="hero-content">
+    <div class="hero-badge">Sejarah Para Nabi di Bumi Mesir</div>
+    <h1>Dari Yusuf hingga Musa</h1>
+    <p class="sub">Mimpi raja yang mengubah wajah Mesir, khazanah kerajaan beserta bala tentaranya,
+      dakwah Nabi Syu'aib di Madyan, peti kayu yang hanyut di Sungai Nil,
+      dan perjalanan panjang Bani Israel — dari kejayaan menuju perbudakan, lalu kemerdekaan.</p>
+    <div class="hero-chips">
+      <a href="#yusuf">Nabi Yusuf AS</a>
+      <a href="#bani-israel">Bani Israel</a>
+      <a href="#syuaib">Nabi Syu'aib AS</a>
+      <a href="#firaun">Firaun &amp; Kerajaannya</a>
+      <a href="#musa">Nabi Musa AS</a>
+      <a href="#lini-masa">Lini Masa Sejarah</a>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>Gulir untuk membaca</span><span class="line"></span></div>
+  <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0,52 C240,92 480,8 720,38 C960,68 1200,18 1440,50 L1440,90 L0,90 Z" fill="#0b1220"/>
+  </svg>
+</header>
+
+<!-- ================= PENDAHULUAN ================= -->
+<section id="pendahuluan" class="pattern">
+  <div class="wrap">
+    <p class="bismillah reveal">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">I</span>
+        <span class="txt">Pendahuluan<i>Panggung Sejarah: Lembah Sungai Nil</i></span>
+      </div>
+      <h2>Bumi Mesir, Tempat Para Nabi Bertemu Kekuasaan Dunia</h2>
+      <p class="lead">Sungai Nil adalah urat nadi peradaban Mesir kuno — salah satu kerajaan terbesar
+      yang pernah berdiri di muka bumi. Di tanah inilah Allah memutar-mutar roda sejarah kenabian
+      secara luar biasa: di sinilah <b>Nabi Yusuf AS</b> naik dari dasar penjara menjadi pengurus
+      khazanah kerajaan; di sinilah keturunan Nabi Ya'qub AS tumbuh dari sebuah keluarga kecil menjadi
+      umat besar yang dikenal sebagai <b>Bani Israel</b>; dan dari sinilah <b>Nabi Musa AS</b> — yang
+      sempat dibuang ke Sungai Nil ketika masih bayi — kelak memimpin kaumnya keluar dari perbudakan Firaun.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card reveal d1">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M4 20 L9 4 L14 20 M6.8 12 h4.4"/><path d="M14 20 L18.5 8 L23 20"/><line x1="1" y1="20" x2="23" y2="20"/></svg></div>
+        <span class="tag">Era Kejayaan</span>
+        <h3>Nabi Yusuf AS</h3>
+        <p>Dari mimpi seorang raja yang gelisah, seorang pemuda yang dulu dijual sebagai budak justru
+        diangkat menjadi penguasa urusan ekonomi Mesir. Takwil mimpinya menyelamatkan negeri itu
+        dari tujuh tahun paceklik dan menjadikannya penyimpan khazanah negeri.</p>
+      </div>
+      <div class="card reveal d2">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M12 3 v18 M5 21 L12 14 L19 21 M7 8 h10 M8 5 h8"/></svg></div>
+        <span class="tag">Era Dakwah</span>
+        <h3>Nabi Syu'aib AS</h3>
+        <p>Rasul Allah kepada penduduk Madyan dan Aikah, yang berdiri menegakkan tauhid dan kejujuran
+        dalam perdagangan. Beliau dijuluki "khatibul anbiya" — penceramah para nabi — karena kefasihan
+        ucapannya, dan namanya terikat dengan perjalanan Nabi Musa ke Madyan.</p>
+      </div>
+      <div class="card reveal d3">
+        <div class="icon"><svg viewBox="0 0 24 24"><path d="M3 15 c2-1.5 4-1.5 6 0 c2 1.5 4 1.5 6 0 c2-1.5 4-1.5 6 0"/><path d="M3 19 c2-1.5 4-1.5 6 0 c2 1.5 4 1.5 6 0 c2-1.5 4-1.5 6 0"/><path d="M9 11 L11.5 4 h1 L15 11 M9 11 h6 M10 8.5 h4"/></svg></div>
+        <span class="tag">Era Pembebasan</span>
+        <h3>Nabi Musa AS</h3>
+        <p>Seorang bayi dari Bani Israel yang dihanyutkan ke Sungai Nil demi meloloskan diri dari
+        dekret pembunuhan Firaun, lalu justru dipungut, dipelihara, dan dibesarkan di dalam istana
+        musuhnya sendiri — hingga akhirnya menjadi rasul yang menumbangkan kebesaran Firaun.</p>
+      </div>
+    </div>
+    <div class="note reveal">
+      <h5>Catatan Penyampaian</h5>
+      <p>Kisah-kisah pada halaman ini disarikan terutama dari Al-Qur'an (Surah Yusuf, Al-Qasas, Thaha,
+      Al-A'raf, Asy-Syu'ara, Hud, Al-Baqarah, dan Al-Maidah) serta dinikahkan dengan penjelasan para
+      ahli tafsir seperti Ibnu Katsir dan kitab-kitab qishash an-nabiyyin. Sebagian detail datang dari
+      riwayat-riwayat yang tergolong kuat, sebagian lain bercabang pendapat — pada hal-hal demikian
+      halaman ini mencantumkan keterangan "menurut riwayat". Al-Qur'an tidak menyebutkan angka tahun
+      secara pasti, sehingga perkiraan kronologi yang tercantum bersifat indikatif.</p>
+    </div>
+  </div>
+</section>
+<!-- ================= NABI YUSUF ================= -->
+<section id="yusuf" class="band pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">II</span>
+        <span class="txt">Nabi Yusuf AS<i>Dari Penjara ke Puncak Kejayaan Mesir</i></span>
+      </div>
+      <h2>Takwil Mimpi Pertama di Hadapan Raja Mesir</h2>
+      <p class="lead"><b>Yusuf bin Ya'qub bin Ishaq bin Ibrahim</b> — pemuda bangsawan yang hidupnya
+      bergulir penuh ujian: dicampakkan ke sumur oleh saudara-saudaranya, dijual seharga murah di pasar
+      budak, difitnah hingga dipenjara bertahun-tahun di tanah Mesir. Justru di lorong-lorong gelap penjara
+      itulah kemampuan istimewanya mulai menunjukkan diri: beliau mampu mentakwilkan mimpi.</p>
+    </div>
+    <p class="body-text reveal">Pertama kali, Nabi Yusuf mentakwilkan mimpi dua orang tahanan yang
+    mendampinginya — seorang pemuang anggur dan seorang pembawa roti. Takwil beliau terbukti nyata
+    persis sebagaimana dia ucapkan. Berita tentang pemuda penafsir mimpi ini menyebar dari mulut ke
+    mulut, hingga akhirnya menjangkau dinding istana pada momen yang menentukan: ketika raja Mesir
+    sendiri terguncang oleh sebuah mimpi aneh yang tidak bisa ditafsirkan oleh para pendeta, peramal,
+    dan pembesar-pembesar kerajaan (al-mala'). Raja berkata kepada mereka:</p>
+
+    <div class="ayah reveal">
+      <p class="ar">يَا أَيُّهَا الْمَلَأُ إِنِّي أَرَىٰ سَبْعَ بَقَرَاتٍ سِمَانٍ يَأْكُلُهُنَّ سَبْعٌ عِجَافٌ وَسَبْعَ سُنْبُلَاتٍ خُضْرٍ وَأُخَرَ يَابِسَاتٍ...</p>
+      <p class="id">"Wahai pembesar-pembesar (anggota majelisku), sungguh aku bermimpi melihat tujuh ekor
+      sapi gemuk dimakan oleh tujuh ekor sapi kurus, dan (melihat) tujuh bulir (gandum) yang hijau dan
+      lainnya yang kering..."</p>
+      <span class="ref">QS. Yusuf [12] : 43</span>
+    </div>
+
+    <p class="body-text reveal">Pembesar-pembesar kerajaan menepisnya, "Mimpi-mimpi yang sambil lalu!"
+    Namun pemuang anggur yang telah dibebaskan — dan yang pernah mendengar takwil Yusuf di penjara —
+    segera berlari ke penjara. Di sanalah Nabi Yusuf, dengan izin Allah, menjabarkan apa yang kelak
+    menjadi takwil mimpinya yang termasyhur: <b>tujuh tahun berturut-turut Mesir akan panen raya
+    (masa subur), lalu setelah itu datang tujuh tahun paceklik yang keras yang akan menghabiskan
+    semua hasil simpanan, kecuali sedikit yang dijaga</b>. Beliau bahkan menyusun strategi: biarkan
+    bulir-bulir gandum tetap di tangkainya kecuali yang diambil untuk dimakan (QS. Yusuf: 47-49),
+    sebuah teknik penyimpanan yang cerdas.</p>
+
+    <div class="grid g2">
+      <div class="card reveal d1">
+        <span class="tag">Pengangkatan</span>
+        <h3>"Sesungguhnya Engkau Kedudukannya Tinggi di Sisiku"</h3>
+        <p>Raja memanggil Yusuf ke istana. Setelah bercakap-cakap dengannya dan meyakini kecerdasan
+        serta kejujurannya, raja berkata: <i>"Sesungguhnya engkau pada hari ini memiliki kedudukan
+        tinggi dan kepercayaan di sisi kami"</i> (QS. Yusuf: 54). Yang mengagumkan, Yusuf tidak
+        meminta-minta jabatan. Ketika ditawari menjadi orang kepercayaan raja, beliau justru menawarkan
+        diri pada bidang yang tepat sasaran bagi negeri yang akan menghadapi paceklik:</p>
+      </div>
+      <div class="card reveal d2">
+        <span class="tag">Kejujuran Profesional</span>
+        <h3>Tawaran yang Mengubah Sejarah Mesir</h3>
+        <p>Beliau berkata <i>"Jadikanlah aku pengurus rumah khazanah negeri ini; sesungguhnya aku
+        pandai menjaga dan mengetahui"</i> (QS. Yusuf: 55). Penjaga (<b>hafizh</b>): tidak akan berkhianat
+        atas harta negara. Mengetahui (<b>'alim</b>): paham ilmu pengelolaan. Kombinasi amanah dan
+        kompetensi inilah yang membuat raja menyerahkan kepadanya seluruh urusan khazanah negeri —
+        dan Allah meneguhkan: <i>"demikianlah Kami meneguhkan kedudukan Yusuf di bumi, ia berhak
+        menetap di mana yang ia kehendaki"</i> (QS. Yusuf: 56).</p>
+      </div>
+    </div>
+
+    <div class="fact reveal">
+      <h5>Kerajaan Beserta Bala Tentaranya</h5>
+      <p>Sebagai pengurus khazanah, Nabi Yusuf memimpin urusan ekonomi dan logistik kerajaan Mesir:
+      lumbung-lumbung negara, arus kafilah dagang dari berbagai negeri yang datang membeli bahan
+      makanan, hingga pembiayaan operasional istana dan pasukan kerajaan yang menjaga keamanan
+      negeri. Al-Qur'an menggambarkan kebesaran Mesir pada zamannya melalui istilah-istilah resmi:
+      <b>al-malik</b> (raja), <b>al-mala'</b> (majelis pembesar kerajaan), <b>al-'aziz</b> (menteri
+      tinggi — jabatan yang pernah dipegang majikan Yusuf), dan <b>al-khazain</b> (rumah-rumah
+      khazanah negara). Dalam riwayat-riwayat kisah, armada dan bala tentara Mesir tunduk pada
+      perintah raja, dan seluruh sistem penyimpanan pangan selama masa subur berada di bawah kendali
+      Yusuf.</p>
+      <p>Ketika paceklik melanda dan manusia dari penjuru-penjuru negeri datang ke Mesir, yang
+      mereka temukan adalah negeri yang terselamatkan — bukan karena kekuatan bala tentaranya,
+      melainkan karena perencanaan seorang nabi yang amanah.</p>
+    </div>
+
+    <h3 class="reveal" style="font-family:'Playfair Display',serif;color:var(--gold2);font-size:1.45rem;margin-top:48px">
+      Reuni Keluarga dan Sujud Penghormatan</h3>
+    <p class="body-text reveal">Puncak kisah datang ketika saudara-saudara Yusuf sendiri datang ke
+    Mesir untuk membeli makanan, tanpa menyadari bahwa pejabat besar yang mereka hadapi adalah adik
+    yang dulu mereka buang. Setelah rangkaian ujian kejujuran dan pembongkaran masa lalu, keluarga
+    besar Nabi Ya'qub pun hijrah ke Mesir dan kembali berkumpul. Mimpi Nabi Yusuf semasa kecil —
+    sebelas bintang dan matahari-bulan yang bersujud kepadanya — terwujud dengan sempurna:</p>
+
+    <div class="ayah reveal">
+      <p class="ar">وَرَفَعَ أَبَوَيْهِ عَلَى الْعَرْشِ وَخَرُّوا لَهُ سُجَّدًا... يَا أَبَتِ هَٰذَا تَأْوِيلُ رُءْيَايَ مِن قَبْلُ قَدْ فَعَلَهَا رَبِّي حَقًّا... إِنَّ رَبِّي لَطِيفٌ لِّمَا يَشَاءُ ۚ إِنَّهُ هُوَ الْعَلِيمُ الْحَكِيمُ</p>
+      <p class="id">"Dan ia mengangkat kedua orang tuanya ke atas 'arsy (singgahsana), dan mereka tunduk
+      membungkuk kepadanya. Dan ia berkata, 'Wahai ayahku! Inilah takwil mimpiku dahulu, sungguh
+      Tuahanku telah menjadikannya nyata... Sesungguhnya Tuhanku Maha Lembut (latif) terhadap apa yang
+      Dia kehendaki. Sungguh, Dialah Yang Maha Mengetahui, Maha Bijaksana.'"</p>
+      <span class="ref">QS. Yusuf [12] : 100</span>
+    </div>
+
+    <div class="fact reveal">
+      <h5>Fakta Menarik — "Raja" (Al-Malik), Bukan "Firaun"</h5>
+      <p>Perhatikan ketelitian sejarah Al-Qur'an: sepanjang Surah Yusuf, penguasa Mesir sengaja
+      disebut <b>"Al-Malik" (raja)</b> dan <b>"Al-'Aziz" (menteri)</b> — tidak pernah "Firaun".
+      Sebaliknya, pada kisah Nabi Musa yang berlangsung belakangan, penguasa Mesir disebut
+      <b>"Firaun"</b>. Penelitian sejarah modern menunjukkan gelar "Firaun" (Per'aah, bermakna
+      "rumah agung") memang baru lazim dipakai sebagai gelar penguasa Mesir pada masa Kerajaan Baru
+      (New Kingdom) — yang diperkirakan selaras dengan zaman Nabi Musa — sementara pada masa-masa
+      lebih awal penguasa disebut raja. Ketidakmungkinan Nabi Muhammad saw. mengetahui detail
+      diplomasi gelar kuno ini menjadi salah satu keajaiban sejarah Al-Qur'an.</p>
+    </div>
+  </div>
+</section>
+<!-- ================= BANI ISRAEL ================= -->
+<section id="bani-israel" class="pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">III</span>
+        <span class="txt">Bani Israel<i>Keturunan Nabi Ya'qub AS di Tanah Mesir</i></span>
+      </div>
+      <h2>Bani Ya'qub yang Mencicit Menjadi Umat Besar</h2>
+      <p class="lead"><b>"Bani Israel" dan "Bani Ya'qub" adalah dua nama untuk kaum yang sama.</b>
+      "Israel" adalah gelar (lagab) Nabi Ya'qub AS; menurut sebagian ahli tafsir bermakna
+      <b>"hamba Allah"</b> ('abd Allah). Sejak itulah seluruh keturunan beliau disebut Bani Israel —
+      sebagaimana mereka juga disebut Bani Ya'qub. Keduanya merujuk pada umat yang sama yang
+      kemudian menjadi tokoh sentral sejarah para nabi di Mesir.</p>
+    </div>
+
+    <p class="body-text reveal">Nabi Ya'qub AS memiliki dua belas anak lelaki dari berbagai istri,
+    dan dari kedua belas putra inilah lahir kedua belas kelompok besar (suku) Bani Israel. Ketika
+    keluarga itu hijrah ke Mesir pada masa Nabi Yusuf, jumlah mereka relatif kecil — dalam sebagian
+    riwayat disebut sekitar tujuh puluh jiwa. Namun di tanah Mesir yang subur dan aman itulah
+    mereka bertumbuh pesat dari generasi ke generasi, hingga menjelang era Nabi Musa mereka telah
+    menjadi suatu umat yang besar dan menyatu sebagai bangsa.</p>
+
+    <div class="chips reveal d1">
+      <span class="chip">Rauwil</span><span class="chip">Syam'un</span><span class="chip">Lawi</span>
+      <span class="chip">Yahudza</span><span class="chip">Zabulun</span><span class="chip">Isyakar</span>
+      <span class="chip">Dan</span><span class="chip">Gad</span><span class="chip">Asyir</span>
+      <span class="chip">Naftali</span><span class="chip alt">Yusuf</span><span class="chip">Bunyamin</span>
+    </div>
+    <p class="body-text reveal" style="margin-top:10px;font-size:.85rem">Kedua belas suku Bani Israel
+    dari kedua belas putra Nabi Ya'qub AS — termasuk suku Yusuf dan suku Lawi (suku kelak lahirnya
+    Nabi Musa dan Nabi Harun, menurut riwayat).</p>
+
+    <div class="grid g2">
+      <div class="card reveal d1">
+        <span class="tag">Masa Dimuliakan</span>
+        <h3>Kehidupan di Era Yusuf</h3>
+        <p>Kedatangan keluarga Yusuf disambut dengan kehormatan. Al-Qur'an mencatat pesan Yusuf
+        kepada rombongan ayahnya: <i>"Masuklah kamu ke kota Mesir, insya Allah kamu akan berada dalam
+        keadaan aman"</i> (QS. Yusuf: 99). Mereka diberi tempat tinggal, dilindungi oleh kedudukan
+        Yusuf sebagai pengurus khazanah, dan hidup tenang di negeri yang pangannya melimpah.
+        <b>Era Yusuf adalah masa keemasan Bani Israel di Mesir</b> — dari keluarga pengembara
+        menjadi komunitas yang berakar dan dimuliakan.</p>
+      </div>
+      <div class="card reveal d2">
+        <span class="tag">Tokoh dari Kalangan Mereka</span>
+        <h3>Qarun, Bendahara Firaun</h3>
+        <p>Menariknya, bahkan setelah rezim berganti, tidak semua Bani Israel terjerumus ke dasar
+        pembedaan sosial. Al-Qur'an menyebut <b>Qarun</b>, seorang lelaki dari kaum Musa (Bani Israel),
+        yang menjadi pemegang harta Firaun hingga kunci-kunci hartanya saja mengiringi sekelompok
+        lelaki yang kuat (QS. Al-Qasas: 76). Namun kedudukan setinggi itu membutakan dirinya, hingga
+        ia menolak menyokong kaumnya yang tertindas dan akhirnya binasa ditelan bumi karena kesombongannya.</p>
+      </div>
+    </div>
+
+    <p class="body-text reveal">Namun sejarah jarang berjalan lurus. Setelah Nabi Yusuf dan generasinya wafat, ombak zaman berubah arah: kekuasaan Mesir jatuh ke tangan rezim baru yang menganggap
+    Bani Israel bukan lagi sebagai keluarga penyelamat negeri, melainkan ancaman yang harus
+    dijinakkan. Dari sinilah dimulai bab yang kelam — bab perbudakan — dan justru pada bab kelam
+    inilah Allah menyiapkan kelahiran seorang bayi yang akan mengubah segalanya.</p>
+  </div>
+</section>
+
+<!-- ================= NABI SYU'AIB ================= -->
+<section id="syuaib" class="band pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">IV</span>
+        <span class="txt">Nabi Syu'aib AS<i>Rasul kepada Ahli Madyan dan Aikah</i></span>
+      </div>
+      <h2>Dakwah Kejujuran di Jalur Perdagangan Dunia</h2>
+      <p class="lead">Di luar Mesir, dalam rentang zaman antara generasi Yusuf dan kelahiran Musa,
+      Allah mengutus <b>Nabi Syu'aib AS</b> kepada dua kaum yang serumpun: penduduk <b>Madyan</b> dan
+      <b>Ashhabul Aikah</b> (penduduk rimbun kayu). Madyan adalah kota dagang yang sibuk di jalur
+      kafilah antara Hijaz dan Syam — dan dalam sebagian riwayat, penduduk aslinya menelusuri
+      nasabnya ke Midyan, putra Nabi Ibrahim AS. Nabi Syu'aib dijuluki <b>Khatibul Anbiya</b>
+      ("penceramah para nabi") karena kefasihan ucapannya.</p>
+    </div>
+
+    <div class="ayah reveal">
+      <p class="ar">قَالَ يَا قَوْمِ اعْبُدُوا اللَّهَ مَا لَكُم مِّنْ إِلَٰهٍ غَيْرُهُ ۖ قَدْ جَاءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ أَوْفُوا الْكَيْلَ وَالْمِيزَانَ وَلَا تَبْخَسُوا النَّاسَ أَشْيَاءَهُمْ وَلَا تُفْسِدُوا فِي الْأَرْضِ بَعْدَ إِصْلَاحِهَا</p>
+      <p class="id">"Ia berkata, 'Wahai kaumku! Sembahlah Allah, tidak ada tuhan bagimu selain Dia.
+      Sungguh, telah datang kepadamu bukti yang nyata dari Tuhanmu. Sempurnakanlah takaran dan
+      timbangan, janganlah kamu mengurangi barang-barang orang lain, dan janganlah kamu berbuat
+      kerusakan di bumi setelah (diciptakan) dengan baik.'"</p>
+      <span class="ref">QS. Al-A'raf [7] : 85</span>
+    </div>
+
+    <p class="body-text reveal">Perhatikan isi dakwahnya: selain seruan tauhid, Nabi Syu'aib menyoroti
+    <b>etika ekonomi</b> — takaran yang utuh, timbangan yang lurus, larangan menipu dan mengurangi hak
+    orang lain. Ini bukan kebetulan: kaum Madyan adalah kaum pedagang, dan penyakit utama mereka justru
+    ketamakan dalam jual beli. Dakwah para nabi selalu relevan dengan luka paling dalam umatnya; di
+    Mesir Yusuf mengelola khazanah dengan amanah, sementara di Madyan Syu'aib memerangi korupsi dagang.</p>
+
+    <div class="grid g3">
+      <div class="card reveal d1">
+        <span class="tag">Penolakan</span>
+        <h3>Ditertawakan dan Diancam</h3>
+        <p>Kaumnya menjawab dengan sindiran: <i>"Wahai Syu'aib, apakah shalatmu menyuruhmu agar kami
+        meninggalkan apa yang disembah nenek moyang kami, atau agar kami berbuat sekehendak hati kami
+        pada harta kami?"</i> (QS. Hud: 87). Ibadah dianggap urusan pribadi, sedangkan bisnis dianggap
+        wilayah bebas — pandangan yang persis dipertanyakan Nabi Syu'aib hingga ke akarnya.</p>
+      </div>
+      <div class="card reveal d2">
+        <span class="tag">Tekad</span>
+        <h3>Bukan Meminta Balasan</h3>
+        <p>Nabi Syu'aib menegaskan dakwahnya bukan mencari nama atau harta: <i>"Aku tidak menginginkan
+        balasan apa pun atas (dakwah)ku; balasanku tidak lain hanyalah dari Tuhan seluruh alam"</i>
+        (QS. Asy-Syu'ara: 180). Beliau mengingatkan azab hari kelam, namun kaumnya justru meminta
+        turunnya azab itu segera (QS. Al-A'raf: 88-89).</p>
+      </div>
+      <div class="card reveal d3">
+        <span class="tag">Akhir Kisah</span>
+        <h3>Azab Sayha (Suara Memekakkan)</h3>
+        <p>Ketika datang perintah Allah, <i>"Kami selamatkan Syu'aib dan orang-orang yang beriman
+        bersamanya; dan orang-orang zalim ditimpa suara keras (sayha) yang memekakkan, hingga mereka
+        menjadi mayat yang bergelimpangan di rumah-rumah mereka"</i> (QS. Hud: 94). Kota dagang yang
+        sombong itu sunyi — kecuali sisa-sisa pengikut beriman yang terselamatkan.</p>
+      </div>
+    </div>
+
+    <div class="fact reveal">
+      <h5>Benang Merah: Syu'aib dan Musa di Madyan</h5>
+      <p>Kisah Nabi Syu'aib terhubung langsung dengan perjalanan Nabi Musa. Ketika Musa melarikan diri
+      dari Mesir, tujuan pengungsianya adalah <b>Madyan</b> — negeri dakwah Nabi Syu'aib — dan di
+      sana beliau berjumpa dengan seorang <b>syekh Madyan</b> yang kemudian menikahkan putrinya
+      dengannya (QS. Al-Qasas: 23-28). Para ahli berbeda pendapat: <b>sebagian menyatakan syekh itu
+      adalah Nabi Syu'aib sendiri</b> yang pada saat itu telah sangat lanjut usia, dan <b>sebagian
+      lain menyatakan ia keturunan atau pengikut Nabi Syu'aib</b> yang mewarisi tanah dan nilai-nilai
+      dakwahnya. Dalam kedua pendapat, benang merahnya tetap satu: tanah Madyan adalah warisan rohani
+      Nabi Syu'aib, dan di sanalah Allah mendidik Musa sebelum diangkat menjadi rasul.</p>
+    </div>
+  </div>
+</section>
+<!-- ================= FIRAUN ================= -->
+<section id="firaun" class="pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">V</span>
+        <span class="txt">Firaun<i>Rezim Baru yang Memperbudak Bani Israel</i></span>
+      </div>
+      <h2>Ketika "Raja" Berganti Menjadi "Firaun"</h2>
+      <p class="lead">Berabad-abad mengalir seperti air Nil. Gelar penguasa Mesir pun berganti — dari
+      "al-malik" (raja) pada era Yusuf menjadi <b>"Firaun"</b> pada era Musa. Menurut sebagian ahli
+      bahasa, kata Firaun berasal dari istilah kuno Mesir yang bermakna "rumah agung", yang lama-lama
+      menjadi sebutan bagi orang yang menempati istana itu. Di bawah rezim baru ini, bangsa Qibthi
+      (Kopt) memegang kendali penuh negeri, dan Bani Israel — yang dulu diselamatkan oleh Yusuf —
+      kini diperlakukan sebagai kaum hina.</p>
+    </div>
+
+    <div class="ayah reveal">
+      <p class="ar">إِنَّ فِرْعَوْنَ عَلَا فِي الْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَّسْتَضْعِفُ طَاۤىِٕفَةً مِّنْهُمْ يُذَبِّحُ اَبْنَاۤءَهُمْ وَيَسْتَحْيٖى نِسَاۤءَهُمْ ۚ اِنَّهٗ كَانَ مِنَ الْمُفْسِدِيْنَ</p>
+      <p class="id">"Sesungguhnya Firaun telah bermegah-megah (menindas) di bumi (Mesir) dan menjadikan
+      penduduknya berpecah-belah (berpuak-puak); ia menindas golongan yang lemah di antara mereka,
+      menyembelih anak-anak laki-laki mereka dan membiarkan hidup wanita-wanita mereka. Sesungguhnya
+      dia termasuk orang-orang yang membuat kebinasaan."</p>
+      <span class="ref">QS. Al-Qasas [28] : 4</span>
+    </div>
+
+    <div class="grid g2">
+      <div class="card reveal d1">
+        <span class="tag">Politik Salamang (Pecah Belah)</span>
+        <h3>Membelah untuk Berkuasa</h3>
+        <p>Ayat di atas memuat strategi klasik para penindas: <b>membagi-bagi masyarakat menjadi
+        puak-puak</b> (shiya'an) agar tidak bersatu. Bani Israel dijadikan kasta bawah — dikucilkan,
+        dihinakan, dan dipaksa bekerja paksa. Al-Qur'an mengingatkan bagaimana Firaun dan kaumnya
+        "menimpakan siksaan yang seberat-beratnya" kepada Bani Israel (QS. Al-Baqarah: 49): kerja
+        paksa membangun kota-kota dan monumen, penghinaan sehari-hari, dan hukuman paling keras.
+        Padahal Allah telah menetapkan takdir yang terbalik dari rencana Firaun: <i>"Kami hendak
+        melimpahkan kesayangan kepada orang-orang yang tertindas (mustadh'afin) di bumi itu, dan
+        hendak menjadikan mereka pemimpin serta menjadikan mereka pewaris (negeri)"</i>
+        (QS. Al-Qasas: 5).</p>
+      </div>
+      <div class="card reveal d2">
+        <span class="tag">Ketakutan Rezim</span>
+        <h3>"Mereka Akan Bangkit dari Tengah Kami"</h3>
+        <p>Mengapa rezim sebesar Firaun gentar terhadap kaum buruh? Karena Bani Israel terus bertambah
+        banyak dan kuat. Para ahli sejarah menjelaskan Firaun khawatir mereka bersekutu dengan musuh
+        dari luar atau bangkit dari dalam. Karena itu ia menekan dua sisi sekaligus: <b>menyembelih
+        anak-anak laki-laki</b> (memangkas calon pejuang) dan <b>membiarkan anak-anak perempuan
+        hidup</b> (menjaga kebutuhan buruk dan perbudakan). Politik zalim yang mengukur manusia
+        sebatas angkatan kerja.</p>
+      </div>
+    </div>
+
+    <div class="fact reveal">
+      <h5>Istana Firaun: Haman, Qarun, dan Bala Tentara</h5>
+      <p>Kekuasaan Firaun ditopang tatanan istana yang lengkap: <b>Haman</b>, menteri utamanya yang
+      kelak diperintahkan membangun menara tinggi untuk "menaiki Tuhan Musa" (QS. Al-Qasas: 38;
+      Ghafir: 36); <b>Qarun</b>, sang bendahara dari kalangan Bani Israel sendiri (QS. Al-Qasas: 76);
+      para pembesar majelis (al-mala') yang takut kehilangan jabatan; dan <b>bala tentara (junud)</b>
+      yang kelak mengejar Bani Israel hingga ke tepi laut (QS. Thaha: 78; Asy-Syu'ara: 64). Dalam
+      sebagian riwayat, pasukan Firaun terbilang sangat besar — QS. Al-Baqarah: 50 menggambarkan
+      Allah "menceburkan orang-orang yang mencengangkan" mereka ke dalam laut. Kekuatan militer
+      yang menggagahkan diri itulah yang sebenarnya gentar terhadap seorang bayi dari Bani Israel.</p>
+    </div>
+
+    <h3 class="reveal" style="font-family:'Playfair Display',serif;color:var(--gold2);font-size:1.45rem;margin-top:48px">
+      Mimpi Firaun dan Dekret Pembunuhan Bayi Laki-Laki</h3>
+    <p class="body-text reveal">Menurut penjelasan yang dinukil dalam kitab-kitab tafsir dan qishash,
+    Firaun bermimpi melihat <b>api menyala dari arah Baitulmaqdis yang menjalar ke kota-kota bangsa
+    Qibthi — membakar semua tanaman dan rumah mereka, namun tidak menjilat rumah-rumah Bani Israel</b>.
+    Terguncang, ia mengumpulkan para peramal, pendeta, dan dukun. Takwil yang diberikan (riwayat):
+    akan lahir dari Bani Israel seorang pemuda yang menumbangkan takhta kerajaan. Maka dijatuhkanlah
+    dekret yang mengerikan itu: <b>setiap bayi laki-laki Bani Israel yang lahir harus dibunuh</b>.</p>
+    <p class="body-text reveal">Dalam sebagian riwayat disebutkan dekret itu dilaksanakan dengan sistem
+    bergantian antar tahun — dengan alasan ekonomi: jika semua bayi laki-laki dibunuh setiap tahun,
+    tidak akan ada calon buruh paksa baru. Di tahun-tahun tertentu dekret longgar, di tahun-tahun
+    lain ditegaskan kembali. Justru pada pergolakan kebijakan yang kejam dan tidak menentu inilah,
+    dalam salah satu tahun ketat penindasan, seorang ibu Bani Israel dari suku Lawi melahirkan
+    seorang bayi lelaki — dan menyembunyikannya dari seluruh dunia.</p>
+  </div>
+</section>
+<!-- ================= NABI MUSA ================= -->
+<section id="musa" class="band pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">VI</span>
+        <span class="txt">Nabi Musa AS<i>Kelahiran, Peti di Sungai Nil, dan Istana Firaun</i></span>
+      </div>
+      <h2>Bayi yang Dihanyutkan Sungai Nil, Dipelihara Musuhnya Sendiri</h2>
+      <p class="lead">Di tengah dekret pembunuhan itu, dari keturunan Nabi Ya'qub (Bani Israel) lahir
+      seorang bayi lelaki. Menurut riwayat, beliau berasal dari <b>suku Lawi</b>, putra <b>Imran</b>,
+      kakak dari <b>Nabi Harun AS</b>. Pada saat kelahirannya, beliau belum mendapat gelar apa pun —
+      bukan nabi, bukan rasul; beliau hanyalah seorang bayi yang dipanggil dengan nama
+      <b>"Musa"</b>, anak dari sebuah keluarga tertindas yang nyawanya sedang diburu oleh dekret kerajaan.</p>
+    </div>
+
+    <div class="ayah reveal">
+      <p class="ar">وَأَوْحَيْنَآ اِلٰٓى اُمِّ مُوْسٰىٓ اَنْ اَرْضِعِيْهِ ۚ فَاِذَا خِفْتِ عَلَيْهِ فَاَلْقِيْهِ فِى الْيَمِّ وَلَا تَخَافِيْ وَلَا تَحْزَنِيْ ۖ اِنَّا رَاۤدُّوْهُ اِلَيْكِ وَجَاعِلُوْهُ مِنَ الْمُرْسَلِيْنَ</p>
+      <p class="id">"Dan Kami ilhamkan kepada ibu Musa: 'Susuilah dia, dan apabila engkau merasa takut
+      terhadapnya, maka lepaskanlah dia ke sungai (Nil). Dan jangan engkau takut dan jangan (pula)
+      engkau bersedih hati, karena Kami akan mengembalikannya kepadamu dan menjadikannya salah seorang
+      rasul.'"</p>
+      <span class="ref">QS. Al-Qasas [28] : 7</span>
+    </div>
+
+    <p class="body-text reveal">Berikut kronologi peristiwa yang mengubah sejarah, disusun berurutan
+    dari naskah Al-Qur'an dan penjelasan para ahli tafsir:</p>
+
+    <div class="steps">
+      <div class="step reveal d1">
+        <div class="step-num">1</div>
+        <div>
+          <h4>Kelahiran yang Dirahasiakan</h4>
+          <p>Sejak mengandung, ibunda Musa hidup dalam ketegangan: setiap kelahiran bayi laki-laki
+          dipantau pengawal Firaun. Ketika bayi itu lahir, beliau menyembunyikannya sebaik-baiknya —
+          digendong hanya saat diam, disusui di kamar tertutup, dan setiap kali menangis hatinya
+          seakan hendak pecah, sebab tangisan bayi bisa membawa pasukan ke rumahnya (menurut riwayat
+          dalam tafsir).</p>
+        </div>
+      </div>
+      <div class="step reveal d2">
+        <div class="step-num">2</div>
+        <div>
+          <h4>Ilham Ilahi: "Lepaskan Dia ke Sungai"</h4>
+          <p>Suatu perintah yang tampak mustahil di akal: meletakkan buah hati di perairan sungai
+          tempat bayi-bayi lain dihukum mati. Namun Allah menenangkan ibunya dengan dua janji:
+          <b>"Kami akan mengembalikannya kepadamu"</b> dan <b>"Kami akan menjadikannya dari para
+          rasul"</b> (QS. Al-Qasas: 7; QS. Thaha: 39). Ibu Musa pun menyiapkan <b>peti kayu</b> yang
+          diplester agar tak bocor (menurut riwayat), meletakkan bayinya di dalamnya, lalu di hadapan
+          kasih sayang yang bergetar, melepaskan peti itu ke aliran Sungai Nil.</p>
+        </div>
+      </div>
+      <div class="step reveal d3">
+        <div class="step-num">3</div>
+        <div>
+          <h4>Para Ombak Menjaga Sang Bayi</h4>
+          <p>Yang tampak di mata ibunya adalah peti yang menjauh; yang tak tampak adalah jaminan
+          Allah. Al-Qur'an mencatat penjagaan itu dalam firman: <i>"dan Aku limpahkan kepadamu kasih
+          sayang dari-Ku, dan agar engkau dibesarkan di bawah penglihatan (pengawasan)-Ku"</i>
+          (QS. Thaha: 39). Sungai yang seharusnya menjadi ajal justru menjadi jalan selamat:
+          <b>"maka biarlah sungai menghanyutkannya ke tepian pantai, di mana dia diambil oleh
+          musuh-Ku dan musuhnya"</b> (QS. Thaha: 39). Riwayat menyebut aliran membawa peti mendekati
+          tepian di sekitar kompleks istana Firaun — tempat rombongan keluarga istana biasa bermain air.</p>
+        </div>
+      </div>
+      <div class="step reveal d4">
+        <div class="step-num">4</div>
+        <div>
+          <h4>Dipungut Keluarga Firaun (Aal Fir'aun)</h4>
+          <p>Allah mencatat peristiwa itu dengan kalimat yang penuh ironi sejarah:</p>
+          <p style="margin-top:10px" class="ayah-lite"><i>"Dan keluarga Firaun memungutnya, agar
+          (kelak) menjadi musuh dan kesedihan bagi mereka. Sungguh, Firaun, Haman, dan tentaranya
+          adalah orang-orang yang keliru."</i> (QS. Al-Qasas: 8). Peti dibawa ke hadapan Firaun.
+          Menurut riwayat, ketika terbuka dan terlihat bayi yang sungguh elok itu, hati para
+          penguasa istana berubah — bahkan Firaun sendiri terpikat pada bayi yang ia dekretkan untuk
+          dibunuh.</p>
+        </div>
+      </div>
+      <div class="step reveal d1">
+        <div class="step-num">5</div>
+        <div>
+          <h4>Istri Firaun: "Jangan Kamu Bunuh Dia"</h4>
+          <p>Kata-kata yang menyelamatkan sejarah keluar dari mulut <b>istri Firaun, Asiyah binti
+          Muzahim</b> — perempuan beriman yang kelak diabadikan Allah sebagai teladan bersama Maryam
+          binti Imran (QS. At-Tahrim: 11):</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="ayah reveal">
+      <p class="ar">وَقَالَتِ امْرَاَتُ فِرْعَوْنَ قَرَّتُ عَيْنٍ لِّيْ وَلَكَ ۖ لَا تَقْتُلُوْهُ عَسٰىٓ اَنْ يَّنْفَعَنَآ اَوْ نَتَّخِذَهٗ وَلَدًا ۖ وَهُمْ لَا يَشْعُرُوْنَ</p>
+      <p class="id">"Dan istri Firaun berkata, '(Dia) adalah penyejuk mata bagiku dan bagimu. Jangan
+      kamu bunuh dia; mudah-mudahan dia bermanfaat kepada kita, atau kita jadikan dia anak (angkat
+      kita).' — Sedang mereka tidak menyadari (apa yang akan terjadi)."</p>
+      <span class="ref">QS. Al-Qasas [28] : 9</span>
+    </div>
+
+    <div class="steps">
+      <div class="step reveal d1">
+        <div class="step-num">6</div>
+        <div>
+          <h4>Dijadikan Anak — dan Penolakan Penyusuan yang Cerdas</h4>
+          <p><b>Asiyah menjadikan Musa sebagai anak (angkat)</b>; dalam sebagian riwayat disebutkan
+          ia tidak memiliki anak sendiri, sehingga bayi itu menjadi putra kebanggaannya. Firaun pun
+          memperlakukannya sebagai putra istana. Namun muncul masalah praktis: <i>"Dan Kami haramkan
+          atasnya (menerima) penyusuan para perempuan sebelum itu"</i> (QS. Al-Qasas: 12) — Musa
+          menolak semua susu penyusun istana. Di balik "kegagalan" itu sesungguhnya tersimpan
+          pengaturan Allah.</p>
+        </div>
+      </div>
+      <div class="step reveal d2">
+        <div class="step-num">7</div>
+        <div>
+          <h4>Kakak Perempuan Musa dan Janji yang Terpenuhi</h4>
+          <p>Dari tepian sungai, kakak perempuan Musa (menurut riwayat) mengikuti peti dari kejauhan.
+          Melihat situasi istana, ia maju menawarkan bantuan: <i>"Maukah aku tunjukkan kepadamu
+          keluarga yang akan memeliharanya untukmu, dan mereka kepadanya berlaku ikhlas?"</i>
+          (QS. Al-Qasas: 12). Musa dibawa ke rumah ibunya sendiri — dan <i>"Kami kembalikan dia
+          kepada ibunya agar mata ibunya menjadi tenang dan agar ia tidak bersedih, serta agar ia
+          mengetahui bahwa janji Allah benar"</i> (QS. Al-Qasas: 13). Sang ibu justru mendapatkan
+          anaknya kembali, lengkap dengan rizki pengasuhan dari istana yang dahulu memburu bayinya
+          (menurut riwayat: digaji oleh istana Firaun).</p>
+        </div>
+      </div>
+      <div class="step reveal d3">
+        <div class="step-num">8</div>
+        <div>
+          <h4>Asal Nama "Musa"</h4>
+          <p>Para ahli tafsir menyebutkan (riwayat) bahwa nama <b>Musa</b> berasal dari bahasa Qibthi:
+          <b>"mu" berarti air dan "sa" berarti kayu/pohon</b> — dinamai demikian karena beliau
+          ditemukan di atas air melalui peti kayu. Dalam bahasa Ibrani sebagian lain menyebut makna
+          "diangkat dari air". Selama dibesarkan di istana, beliau dikenal dan dipanggil dengan nama
+          ini oleh istana maupun kaumnya — Musa bin Imran, putra angkat keluarga Firaun. Gelar
+          <b>nabi dan rasul</b> baru dianugerahkan Allah kepadanya bertahun-tahun kemudian, ketika
+          usianya dewasa, di lembah Thowa.</p>
+        </div>
+      </div>
+      <div class="step reveal d4">
+        <div class="step-num">9</div>
+        <div>
+          <h4>Dua "Madrasah" Kehidupan</h4>
+          <p>Musa membesar dalam perawatan dua lingkaran pendidikan yang luar biasa: <b>pelukan
+          ibunya</b> yang menanamkan keimanan dan jati diri Bani Israel, dan <b>istana Firaun</b> yang
+          mendidiknya dalam ilmu, kepemimpinan, bahasa, serta tata negara penguasa terbesar zamannya.
+          Al-Qur'an merangkum: <i>"Dan ketika ia telah dewasa dan sempurna umurnya, Kami berikan
+          kepadanya hukum (hikmah) dan ilmu; dan demikianlah Kami membalas orang-orang yang
+          berbuat kebaikan"</i> (QS. Al-Qasas: 14). Musa berjalan "dengan penuh kekuatan" di negeri
+          itu (QS. Al-Qasas: 14) — seorang pangeran yang tak disangka-sangka justru disiapkan
+          untuk menumbangkan istananya sendiri.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fact reveal">
+      <h5>Ironi Takdir yang Agung</h5>
+      <p>Firaun membunuh ribuan bayi laki-laki demi mencegah lahirnya ancaman, lalu — tanpa sadar —
+      <b>memelihara, membiayai, dan membesarkan ancaman itu sendiri di dalam istananya</b>, bahkan
+      dengan seragam putra angkatnya. Inilah jawaban langsung Al-Qur'an atas rencana manusia yang
+      angkuh: <i>"...agar (kelak) menjadi musuh dan kesedihan bagi mereka"</i> (QS. Al-Qasas: 8).
+      Tidak ada makhluk yang bisa membatalkan takdir Allah, bahkan dengan seluruh dekret kerajaannya.</p>
+    </div>
+
+    <h3 class="reveal" style="font-family:'Playfair Display',serif;color:var(--gold2);font-size:1.45rem;margin-top:48px">
+      Melanjutkan Sejarah: Dari Istana Menuju Kenabian</h3>
+    <p class="body-text reveal">Kisah Musa tidak berhenti di masa kecilnya. Sekilas bab-bab berikutnya
+    yang mengikat utuh sejarah Bani Israel ini: ketika dewasa, Musa menyelamatkan seorang saudaranya
+    yang dipukuli orang Qibthi hingga orang itu mati, lalu melarikan diri ke <b>Madyan</b> — di sanalah
+    beliau bertemu syekh Madyan (yang dikaitkan dengan Nabi Syu'aib atau keturunannya), menggembalakan
+    kambing, menikah, dan berteduh sekitar sepuluh tahun (menurut riwayat). Pada suatu malam di
+    perjalanan pulang, dari arah <b>Tur (gunung Sinai)</b> beliau dipanggil: <i>"Sesungguhnya Aku Allah,
+    Tuhan seluruh alam"</i> (QS. Al-Qasas: 30) — di sinilah Musa resmi menjadi <b>nabi dan rasul</b>.</p>
+    <p class="body-text reveal">Musa kembali ke Mesir membawa dua mukjizat — <b>tongkat</b> yang menjadi
+    ular dan <b>tangan suci</b> yang memancarkan cahaya — berhadapan langsung dengan Firaun di majelis
+    besar kerajaan, bersama kakaknya <b>Nabi Harun AS</b>. Para penyihir istana yang dikalahkan justru
+    sujud beriman. Setelah kesepakatan damai gagal, Musa memimpin Bani Israel keluar dari Mesir pada
+    malam yang dingin; Firaun mengejar dengan bala tentaranya hingga tepi laut — maka <b>laut itu
+    terbelah</b>, Bani Israel lolos selamat, dan Firaun beserta pasukannya tenggelam. Al-Qur'an bahkan
+    mencatat sumpah Firaun menjelang napas terakhirnya (QS. Yunus: 90-92): ia beriman saat iman tidak
+    lagi berguna, dan jasadnya dibiarkan menjadi tanda bagi generasi setelahnya.</p>
+  </div>
+</section>
+<!-- ================= LINI MASA ================= -->
+<section id="lini-masa" class="pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">VII</span>
+        <span class="txt">Lini Masa<i>Sejarah Panjang Bani Israel di Mesir</i></span>
+      </div>
+      <h2>Perjalanan Panjang dari Keluarga Kecil Menuju Umat Merdeka</h2>
+      <p class="lead">Al-Qur'an tidak menyebut angka tahun secara pasti, namun urutan peristiwa dan
+      benang sejarahnya jelas terbentang. Perkiraan para penulis sejarah menempatkan jarak antara era
+      Yusuf dan era Musa pada rentang beberapa abad (sebagian menyebut kurang lebih empat abad).
+      Inilah garis besarnya:</p>
+    </div>
+
+    <div class="tl">
+      <div class="tl-item reveal">
+        <span class="era">Era 1 — Generasi Ya'qub</span>
+        <h4>Keluarga Kecil yang Hijrah ke Mesir</h4>
+        <p>Nabi Ya'qub AS (Israel) beserta anak-anak dan cucunya pindah ke Mesir mengikuti ajakan
+        Nabi Yusuf. Dalam sebagian riwayat disebut sekitar <b>70 jiwa</b>. Mereka tinggal di negeri
+        itu dengan penuh kehormatan karena kedudukan Yusuf.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 2 — Kejayaan di Era Yusuf</span>
+        <h4>Bani Israel di Bawah Naungan Khazanah Yusuf</h4>
+        <p>Yusuf menjadi pengurus khazanah kerajaan Mesir. Takwil mimpinya menyelamatkan negeri dari
+        tujuh tahun paceklik; negara-negara lain datang membeli pangan. Bani Israel hidup aman,
+        makmur, dan bertumbuh dari generasi ke generasi — masa keemasan mereka di bumi asing.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 3 — Pergantian Generasi</span>
+        <h4>Jumlah Membengkak, Kedudukan Menurun</h4>
+        <p>Yusuf dan saudara-saudaranya wafat; generasi baru lahir yang tidak lagi mengalami kisah
+        istana. Bani Israel kian banyak dan kuat, namun ombak politik Mesir mulai menghadirkan
+        kecurigaan terhadap mereka. Di luar Mesir, dakwah Nabi Syu'aib AS menggema di Madyan.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 4 — Rezim Firaun</span>
+        <h4>Perbudakan dan Dekret Pembunuhan</h4>
+        <p>Kekuasaan jatuh ke tangan Firaun dan bangsa Qibthi. Bani Israel dipecah-belahkan, diperbudak,
+        dijadikan buruh paksa, dan bayi-bayi laki-lakinya dihukum mati berdasarkan dekret yang lahir
+        dari takwil mimpi Firaun. Qarun dari kalangan mereka sendiri memilih berpihak ke istana.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 5 — Kelahiran Musa</span>
+        <h4>Peti Kayu di Sungai Nil</h4>
+        <p>Musa lahir di tengah pemburuan. Atas ilham Allah, ibunya meletakkannya dalam peti kayu
+        di Sungai Nil. Peti dipungut keluarga Firaun; istri Firaun, Asiyah, menjadikannya anak.
+        Musa disusui ibunya sendiri dan dibesarkan di istana — tanpa semua orang sadar, calon
+        penghancur rezim sedang tumbuh di pelukan rezim itu.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 6 — Kenabian</span>
+        <h4>Musa di Tur, Konfrontasi dengan Firaun</h4>
+        <p>Setelah hijrah ke Madyan dan menikah, Musa dipanggil menjadi rasul di lembah Thowa.
+        Kembali ke Mesir bersama Harun, beliau berdebat dengan majelis Firaun; mukjizat tongkat dan
+        tangan suci membongkar kepalsuan para penyihir hingga mereka sujud beriman.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 7 — Exodus</span>
+        <h4>Laut Terbelah, Firaun Tenggelam</h4>
+        <p>Bani Israel keluar dari Mesir; bala tentara Firaun mengejar hingga laut — maka Allah
+        membelahnya. Bani Israel lolos, Firaun tenggelam beserta pasukannya, dan jasadnya dijadikan
+        tanda bagi manusia (QS. Yunus: 92). Kaum yang dulu tertindas kini merdeka, disambut dengan
+        syariat Taurat di gunung Sinai.</p>
+      </div>
+      <div class="tl-item reveal">
+        <span class="era">Era 8 — Menuju Tanah Suci</span>
+        <h4>Warisan yang Berlanjut</h4>
+        <p>Setelah Musa AS wafat di tanah Moab (menurut riwayat), Allah mewariskan kepemimpinan
+        kepada generasi berikutnya — dan dalam tradisi kisah disebutkan <b>Yusya' bin Nun</b> memimpin
+        Bani Israel memasuki Yerusalem. Dari bani inilah Allah kemudian mengutus nabi-nabi besar
+        lainnya — Dawud, Sulaiman, hingga Isa bin Maryam.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HIKMAH ================= -->
+<section id="hikmah" class="band2 pattern">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">
+        <span class="num">VIII</span>
+        <span class="txt">Hikmah<i>I'tibar dari Sejarah</i></span>
+      </div>
+      <h2>Pelajaran yang Bisa Dipetik dari Perjalanan Ini</h2>
+      <p class="lead">Sejarah para nabi bukan sekadar cerita masa lalu; ia cermin dan peta jalan.
+      Dari kisah Yusuf, Syu'aib, Musa, dan Bani Israel, setidaknya ada pelajaran-pelajaran besar ini:</p>
+    </div>
+    <div class="grid g3">
+      <div class="card reveal d1">
+        <span class="tag">Takdir Allah</span>
+        <h3>Rencana Manusia Tak Pernah Menang atas Takdir</h3>
+        <p>Firaun membunuh ribuan bayi demi mencegah "ancaman", lalu memelihara ancaman itu sendiri
+        di istananya dengan kasih sayang. Allah berfirman kepada ibu Musa sejak awal: "Kami akan
+        mengembalikannya kepadamu dan menjadikannya salah seorang rasul." Rencana Allah selalu
+        berjalan di atas seluruh perhitungan manusia.</p>
+      </div>
+      <div class="card reveal d2">
+        <span class="tag">Tawakal</span>
+        <h3>Kesabaran Ibunda Musa Dibayar dengan Kegembiraan</h3>
+        <p>Melepaskan anak di sungai adalah perintah yang menguji batas hati seorang ibu. Namun justru
+        dari air pembunuh itulah Allah menghadirkan pintu rizki: anaknya kembali ke pangkuannya,
+        disusui dengan gaji istana. Siapa bertawakal, Allah mengurus urusannya dari arah yang tak
+        terduga.</p>
+      </div>
+      <div class="card reveal d3">
+        <span class="tag">Amanah &amp; Kompetensi</span>
+        <h3>Yusuf: Kredibilitas Membangun Kepercayaan Negeri</h3>
+        <p>Yusuf tidak meminta jabatan; ia menawarkan keahlian dan jaminan kejujuran — "aku pandai
+        menjaga dan mengetahui". Posisi strategis diperoleh lewat integritas, bukan intrik. Pemimpin
+        ekonomi yang amanah menyelamatkan jutaan jiwa dari bencana kelaparan.</p>
+      </div>
+      <div class="card reveal d1">
+        <span class="tag">Etika Ekonomi</span>
+        <h3>Syu'aib: Timbangan Lurus, Negeri Tegak</h3>
+        <p>Penyebab utama kebinasaan Madyan bukan perang, melainkan kecurangan dagang dan nafsu
+        tamak. Rasul Allah berdiri menegakkan takaran dan timbangan — pengingat bahwa kejujuran
+        ekonomi adalah urusan agama, bukan sekadar etika bisnis.</p>
+      </div>
+      <div class="card reveal d2">
+        <span class="tag">Ujian Sebelum Kemuliaan</span>
+        <h3>Bani Israel: Terhimpit Dulu, Dimuliakan Kemudian</h3>
+        <p>Allah menetapkan: "Kami hendak melimpahkan kesayangan kepada orang-orang yang tertindas
+        di bumi itu..." Perbudakan panjang itu ternyata koridor persiapan — dari tengah kaum yang
+        paling tertindas, Allah membesarkan nabi dan rasul. Jalan menuju kemuliaan seringkali
+        melewati lembah kesabaran.</p>
+      </div>
+      <div class="card reveal d3">
+        <span class="tag">Zaman Berganti</span>
+        <h3>Harta, Jabatan, dan Rezim Semua Fana</h3>
+        <p>Kejayaan era Yusuf tidak mencegah perbudakan era Firaun; kebesaran bala tentara Firaun
+        tidak mampu menyelamatkannya dari tenggelam. Satu-satunya yang abadi melintasi semua era
+        hanyalah kebenaran tauhid yang disampaikan para nabi — dari Ibrahim, Ya'qub, Yusuf,
+        Syu'aib, Musa, hingga Muhammad saw.</p>
+      </div>
+    </div>
+
+    <div class="ayah reveal" style="margin-top:56px">
+      <p class="ar">لَّقَدْ كَانَ فِي قَصَصِهِمْ عِبْرَةٌ لِّأُولِي الْأَلْبَابِ ۗ مَا كَانَ حَدِيثًا يُفْتَرَىٰ وَلَٰكِن تَصْدِيقَ الَّذِي بَيْنَ يَدَيْهِ</p>
+      <p class="id">"Sungguh, pada kisah-kisah mereka itu terdapat pengajaran (i'tibar) bagi orang yang
+      mempunyai akal. Kisah itu bukanlah cerita yang dibuat-buat, tetapi membenarkan (kitab-kitab)
+      yang sebelumnya..."</p>
+      <span class="ref">QS. Yusuf [12] : 111</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p class="verse">وَلَا تَحْزَنْ اِنَّ اللّٰهَ مَعَنَا</p>
+  <p style="color:var(--gold2);font-family:'Playfair Display',serif;font-size:1.05rem">"Jangan engkau bersedih, sesungguhnya Allah bersama kita." — QS. At-Taubah: 40</p>
+  <p>Halaman ini disusun sebagai media belajar sejarah para nabi di bumi Mesir. Kisah para nabi sebelum
+  Nabi Muhammad saw. disebut dengan gelar penghormatan <b style="color:var(--sand)">AS (alaihissalam)</b>,
+  dan Nabi Muhammad saw. dengan <b style="color:var(--sand)">saw. (shallallahu alaihi wa sallam)</b>.</p>
+  <div class="src">
+    <h6>Rujukan Utama</h6>
+    <p>Al-Qur'an al-Karim — Surah Yusuf (12), Al-Baqarah (2), Al-Maidah (5), Al-An'am (6), Yunus (10),
+    Hud (11), Al-A'raf (7), Asy-Syu'ara (26), Al-Qasas (28), Thaha (20), Ghafir (40), At-Tahrim (66),
+    dan At-Taubah (9) &nbsp;•&nbsp; Tafsir Ibnu Katsir &nbsp;•&nbsp; Qishash al-Anbiya &nbsp;•&nbsp;
+    Sirah nabawiyah &nbsp;•&nbsp; Al-Bidayah wan Nihayah</p>
+    <p style="margin-top:14px">Disusun untuk tujuan edukasi dan da'wah. Silakan dibagikan, dicetak, atau dipelajari bersama keluarga dan majelis. Segala kebenaran datang dari Allah, dan segala kekhilafan adalah dari kami.</p>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24"><path d="M12 19 V5 M5 12 l7-7 7 7"/></svg>
+</button>
+
+<script>
+  // Progress bar
+  const prog = document.getElementById('progress');
+  const toTop = document.getElementById('toTop');
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement;
+    const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+    prog.style.width = pct + '%';
+    toTop.classList.toggle('show', h.scrollTop > 700);
+  }, {passive:true});
+  toTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+    });
+  }, {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Active nav
+  const secs = [...document.querySelectorAll('section[id], header[id]')];
+  const links = [...document.querySelectorAll('.nav-links a')];
+  const io2 = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.classList.toggle('active', l.getAttribute('href') === '#' + e.target.id));
+      }
+    });
+  }, {rootMargin:'-40% 0px -55% 0px'});
+  secs.forEach(s => io2.observe(s));
+</script>
+</body>
+</html>
